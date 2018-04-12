@@ -3,7 +3,8 @@ package com.horsege.mskill;
 import android.app.Activity;
 import android.os.Bundle;
 
-import com.horsege.library.Library;
+import com.horsege.librarymodule.LibraryModule;
+
 
 public class MainActivity extends Activity {
 
@@ -15,7 +16,11 @@ public class MainActivity extends Activity {
 //        Product product = new Product();
 //        product.toastProduct(this);
 
-        Library library = new Library();
-        library.toastLibrary(this);
+//        Library library = new Library();
+//        library.toastLibrary(this);
+
+        LibraryModule libraryModule = new LibraryModule();
+        libraryModule.toastLibraryModule(this);
+
     }
 }
