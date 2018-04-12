@@ -23,14 +23,14 @@ allprojects {
 }
 
 //根据条件配置module
-configure(subprojects.findAll {it.name.equalsIgnoreCase("library")}) {
-    println("configure subprojects find library")
-}
+//configure(subprojects.findAll {it.name.equalsIgnoreCase("library")}) {
+//    println("configure subprojects find library")
+//}
 
 //具体工程配置
-project(':library') {
-    println("standalone library configure")
-}
+//project(':library') {
+//    println("standalone library configure")
+//}
 
 
 task clean(type: Delete) {
