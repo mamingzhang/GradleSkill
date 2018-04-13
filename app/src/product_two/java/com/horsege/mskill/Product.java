@@ -1,13 +1,19 @@
 package com.horsege.mskill;
 
 import android.content.Context;
-import android.util.Log;
 import android.widget.Toast;
 
+/**
+ * product_two
+ */
 public class Product {
 
+    /**
+     * 输出Product信息
+     * @param context Context
+     */
     public void toastProduct(Context context) {
-        android.widget.Toast.makeText(context, "Product Two", Toast.LENGTH_SHORT).show();
+        Toast.makeText(context, "Product Two", Toast.LENGTH_SHORT).show();
     }
 
 }

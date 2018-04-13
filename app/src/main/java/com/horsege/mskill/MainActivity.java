@@ -5,7 +5,9 @@ import android.os.Bundle;
 
 import com.horsege.librarymodule.LibraryModule;
 
-
+/**
+ * Main Launcher Activity
+ */
 public class MainActivity extends Activity {
 
     @Override
